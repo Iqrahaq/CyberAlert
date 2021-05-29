@@ -2,7 +2,7 @@
   <img src="/img/logo.png" alt="Logo" width="200"/>
 </p>
 
-<h1 align="center"> Cyber Alert (GUI Prototype) </h1>
+<h1 align="center">Cyber Alert (GUI Prototype)</h1>
 
 <p align="center">
   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Iqrahaq/CyberAlert">
