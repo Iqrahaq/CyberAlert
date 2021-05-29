@@ -35,7 +35,7 @@
 
 ## Background
 
-*During my Masters Year of University (5<sup>th</sup> Year), I was tasked with creating a Front-End GUI Interface that was expected to:*
+*During my Masters Year of University (5<sup>th</sup> Year), I was tasked with creating a Front-End GUI that was expected to:*
 
 * Provide visual representation of network information.
 * Provide 24/7/365 access.
