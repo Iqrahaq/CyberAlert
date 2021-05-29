@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cyber Alert System: Reports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{% static 'index/css/table.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- https://pdfjs.express/blog/how-embed-pdf-in-html-website -->
+    <h2 class="display-5">Reports</h2>
+    <h5 class="lead"><strong>This page provides access to download the report that is based for the last 24 hours.</strong></h5>
+    <div class="container">
+         <span class="page-info">
+            <span id="date"></span>
+        </span>
+        <div class="container">
+            <div id="reportsTableDiv" class="container">
+                <div id="reportsSearchBox">
+                    <input id="reportsSearchInput" type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var reportExtract = ('{{ reportExtract | safe }}').split(",")
+    </script>
+    <script src="{% static 'index/js/reports.js' %}"></script>
+</body>
+</html>

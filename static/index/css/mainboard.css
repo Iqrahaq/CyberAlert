@@ -1,0 +1,91 @@
+h2{
+    margin: 0;
+}
+
+#pills-mainboard{
+    padding-top: 2.5%;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#allCharts{
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+canvas{
+    float: left;
+    margin: 1%;
+    padding: 0.5%;
+    max-width: 31%;
+    max-height: 31%;
+    min-width: 31%;
+    min-height: 31%;
+    background-color: white;
+    border: 2px grey solid;
+    text-align: center;
+}
+
+#chartOne, #chartTwo, #chartThree{
+    margin-bottom: 0;
+}
+
+#mainBoardHeader{
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    padding-bottom: 1%;
+    width: fit-content;
+}
+
+#generateReportButton{
+    display: inline;
+    float: right;
+    width: 15%;
+}
+
+#reportCharts{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#reportCharts > canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: white;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+  #allCharts.container > canvas{
+      font-size: small;
+  }
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+}

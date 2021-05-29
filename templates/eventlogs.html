@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cyber Alert System: Event Logs</title>
+    <link href="{% static 'index/css/table.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h2 class="display-5">Event Logs</h2>
+    <!-- Net logs and ML Events go within this page (Implement Filter and Search facility) -->
+    <h5 class="lead"><strong>This page provides information about the all the scanned traffic within the network. <br /> Please refresh the page to update the table.</strong></h5>
+    <div class="container">
+        <div id="eventLogsTableDiv" class="container">
+            <div id="eventLogsSearchBox">
+                <input id="eventLogsSearchInput" type="text" placeholder="Search...">
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'index/js/eventlogs.js' %}" type="text/javascript"></script>
+</body>
+</html>

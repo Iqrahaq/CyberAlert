@@ -1,0 +1,68 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#alertsTableDiv, #reportsTableDiv, #eventLogsTableDiv{
+    display: inline-block;
+    background-color: white;
+    height: 100%;
+}
+
+#alertsSearchBox, #reportsSearchBox, #eventLogsSearchBox{
+    background-color: #77889996;
+    width: 100%;
+    border-radius: 10px;
+}
+
+table {
+    font-size: 90%;
+    table-layout: fixed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    color: #0C596B;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#alertsSearchInput, #reportsSearchInput, #eventLogsSearchInput{
+    min-width: 98%;
+    max-width: 98%;
+    margin: 1%;
+    padding: 0.5%;
+    border-radius: 25px;
+    color: #009688;
+    border: 1px #009688 solid;
+}
+
+#reportsTable{
+      font-size: 100%;
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  table{
+      font-size: 60%;
+      word-wrap: normal;
+  }
+
+  #reportsTable{
+      font-size: 90%;
+  }
+
+}

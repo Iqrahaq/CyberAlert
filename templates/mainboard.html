@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cyber Alert System: Main Board</title>
+    <link href="{% static 'index/css/mainboard.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="mainBoardHeader">
+        <h2 class="display-5">Main Board</h2>
+    </div>
+    <div id="generateReportButton">
+        <button class="btn generateReport" onclick="saveReport(generateReport());">
+            Generate Report<i class="fas fa-download"></i>
+        </button>
+    </div>
+    <h5 class="lead"><strong>This page provides a visual representation of malicious and non-malicious activity. <br />The graphs refreshes every 10 seconds with new data.</strong></h5>
+    <div id="allCharts" class="container">
+        <canvas id="chartOne" class="chart"></canvas>
+        <canvas id="chartTwo" class="chart"></canvas>
+        <canvas id="chartThree" class="chart"></canvas>
+        <canvas id="chartFour" class="chart"></canvas>
+        <canvas id="chartFive" class="chart"></canvas>
+    </div>
+    <div id="reportCharts" style="visibility:hidden">
+        <img id="logo" src="{% static 'index/img/logo.png' %}" width="auto" height="30%"/>
+        <canvas id="reportChartOne" class="chart report"></canvas>
+        <canvas id="reportChartTwo" class="chart report"></canvas>
+        <canvas id="reportChartThree" class="chart report"></canvas>
+        <canvas id="reportChartFour" class="chart report"></canvas>
+        <canvas id="reportChartFive" class="chart report"></canvas>
+    </div>
+    <script>
+        var IPAddress = "{{local_ip}}";
+    </script>
+    <script type="text/javascript"src="{% static 'index/js/Ubuntu-Regular-normal.js' %}"></script>
+    <script type="text/javascript" src="{% static 'index/js/mainboard.js' %}"></script>    
+</body>
+</html>
+
+

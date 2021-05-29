@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cyber Alert System: Alerts</title>
+    <link href="{% static 'index/css/table.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h2 class="display-5">Alerts</h2>
+    <h5 class="lead"><strong>This page provides information regarding the suspicious and/or malicious traffic. <br />Traffic is sorted via Time along with the predicted outcome. <br /> Please refresh the page to update the table.</strong></h5>
+    <div class="container">
+        <div id="alertsTableDiv" class="container">
+            <div id="alertsSearchBox">
+                <input id="alertsSearchInput" type="text" placeholder="Search...">
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'index/js/alerts.js' %}" type="text/javascript"></script>
+</body>
+</html>
+
+<!-- Need to sort out centering charts and media queries. -->

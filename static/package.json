@@ -1,0 +1,19 @@
+{
+  "name": "cyberalertsystem",
+  "version": "1.0.0",
+  "description": "A Desktop GUI Application for the CyberAlert System",
+  "main": "./js/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Iqra Haq, Simran Gibson, Aqeeb Hussain, Liam Fenwick",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "chart.js": "^2.9.4",
+    "cron": "^1.8.2",
+    "electron": "^11.1.1",
+    "flexmonster": "^2.8.23",
+    "node-schedule": "^2.0.0"
+  }
+}

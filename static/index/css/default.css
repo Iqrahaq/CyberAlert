@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    font-weight: 400;
+    color: white;
+    margin: 0 auto;
+    border: 1em solid transparent;
+}
+
+.container-fluid {
+    background-color: #009688;
+}
+
+ul {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+nav.navbar.navbar-light {
+    padding-bottom: 0;
+}
+
+.nav-pills .nav-link {
+    font-weight: bold;
+    color: grey;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0C596B;
+    color: #3cc5b8;
+}
+
+.tab-content {
+    position: relative;
+    top: -10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.container {
+    display: inline-block;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: #77889996;
+}
+
+h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h5{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.btn {
+    background: #0C596B;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0.5%;
+    padding: 0.7rem 2rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+  h2.display-5{
+      font-size: xxx-large;
+  }
+
+  h5.lead{
+      font-size: larger;
+  }
+
+  .btn{
+      font-size: small;
+  }
+}
