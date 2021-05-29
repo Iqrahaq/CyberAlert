@@ -73,7 +73,7 @@ The main reason for this GUI was to achieve the following scope:
 #### Objectives
 
 * **S**pecific: To create software that can accurately identify and alert a cyber-attack from port mirrored traffic.
-* **M**easurable: A Gantt chart is created to measure progress and stay on track to completion allowing distribution of workload amongst four group members. 
+* **M**easurable: A Gantt chart & Kanban Board to measure progress and stay on track to completion allowing distribution of workload amongst four group members. 
 * **A**chievable: This group is comprised of individuals with prior knowledge in ML and Python programming. Furthermore, the group has completed three years of network modules. In addition, members also have experience in the area of penetration testing.
 * **R**elevant: This project will provide an alarm system software deployable within an organisation’s network. The software will perform automated detection and alert methods for organisations to act immediately.
 * **T**imely: The goal is to complete software implementation early to improve and thoroughly test the product. 
