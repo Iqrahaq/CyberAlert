@@ -17,6 +17,7 @@
   <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Django">
   <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m788265313-421f996241ce04644ca16987">
   <img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m788265313-421f996241ce04644ca16987">
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIqrahaq%2FCyberAlert&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false"/></a>
 </p>
 
 > A Front-End GUI (Prototype) to visualise network information, provide potential cyber alerts and build reports for an organisation. 
