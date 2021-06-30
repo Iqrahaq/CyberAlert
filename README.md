@@ -22,13 +22,6 @@
 
 > A Front-End GUI (Prototype) to visualise network information, provide potential cyber alerts and build reports for an organisation. 
 
-
-## Usage
-
-<p align="center">
-  Access the GUI here: www.iqrahaq.com:8000
-</p>
-
 ## Working Example
 <p align="center">
   <img src="/img/prototype.gif" alt="GIF Working Example"/>
